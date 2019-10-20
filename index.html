@@ -1,25 +1,37 @@
 <!DOCTYPE HTML>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Ejercicio 22</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
 
-        <style>
-        </style>
-    </head>
-   
-    <h1>Fetch</h1>
-    <h1>Lista de repos</h1>
-    
-    <div id="usuarios">
+<head>
+    <meta charset="utf-8">
+    <title>Repolister</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="\src\js\jquery-3.4.1.min.js"></script>
+
+    <link href="\src\css\bootstrap.min.css" rel="stylesheet" />
+    <link href="\src\css\bootstrap-theme.min.css" rel="stylesheet" />
+
+</head>
+
+<section class="container panel panel-default">
+
+    <h1 class="panel-heading">Repolister</h1>
+
+    <div class="panel-body" id="repos">
         <span class="loading">Cargando...</span>
     </div>
 
+</section>
 
 
-    <script src="22_ajax.js"></script>
-    </body>
+<script src="src\js\fetch.js"></script>
+<script src="src\js\bootstrap.min.js"></script>
+
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3004/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+</body>
+
 </html>
